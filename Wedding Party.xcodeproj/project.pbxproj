@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B814D2EB1BFCED040009F1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D2EA1BFCED040009F1E5 /* AppDelegate.swift */; };
+		B814D2ED1BFCED040009F1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D2EC1BFCED040009F1E5 /* ViewController.swift */; };
+		B814D2F01BFCED040009F1E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B814D2EE1BFCED040009F1E5 /* Main.storyboard */; };
+		B814D2F21BFCED040009F1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B814D2F11BFCED040009F1E5 /* Assets.xcassets */; };
+		B814D2F51BFCED040009F1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B814D2F31BFCED040009F1E5 /* LaunchScreen.storyboard */; };
+		B814D3001BFCED040009F1E5 /* Wedding_PartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D2FF1BFCED040009F1E5 /* Wedding_PartyTests.swift */; };
+		B814D30B1BFCED040009F1E5 /* Wedding_PartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D30A1BFCED040009F1E5 /* Wedding_PartyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B814D2FC1BFCED040009F1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B814D2DF1BFCED030009F1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B814D2E61BFCED030009F1E5;
+			remoteInfo = "Wedding Party";
+		};
+		B814D3071BFCED040009F1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B814D2DF1BFCED030009F1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B814D2E61BFCED030009F1E5;
+			remoteInfo = "Wedding Party";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B814D2E71BFCED040009F1E5 /* Wedding Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wedding Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B814D2EA1BFCED040009F1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B814D2EC1BFCED040009F1E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B814D2EF1BFCED040009F1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B814D2F11BFCED040009F1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B814D2F41BFCED040009F1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B814D2F61BFCED040009F1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B814D2FB1BFCED040009F1E5 /* Wedding PartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wedding PartyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B814D2FF1BFCED040009F1E5 /* Wedding_PartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_PartyTests.swift; sourceTree = "<group>"; };
+		B814D3011BFCED040009F1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B814D3061BFCED040009F1E5 /* Wedding PartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wedding PartyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B814D30A1BFCED040009F1E5 /* Wedding_PartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_PartyUITests.swift; sourceTree = "<group>"; };
+		B814D30C1BFCED040009F1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B814D2E41BFCED030009F1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B814D2F81BFCED040009F1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B814D3031BFCED040009F1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B814D2DE1BFCED030009F1E5 = {
+			isa = PBXGroup;
+			children = (
+				B814D2E91BFCED040009F1E5 /* Wedding Party */,
+				B814D2FE1BFCED040009F1E5 /* Wedding PartyTests */,
+				B814D3091BFCED040009F1E5 /* Wedding PartyUITests */,
+				B814D2E81BFCED040009F1E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B814D2E81BFCED040009F1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B814D2E71BFCED040009F1E5 /* Wedding Party.app */,
+				B814D2FB1BFCED040009F1E5 /* Wedding PartyTests.xctest */,
+				B814D3061BFCED040009F1E5 /* Wedding PartyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B814D2E91BFCED040009F1E5 /* Wedding Party */ = {
+			isa = PBXGroup;
+			children = (
+				B814D2EA1BFCED040009F1E5 /* AppDelegate.swift */,
+				B814D2EC1BFCED040009F1E5 /* ViewController.swift */,
+				B814D2EE1BFCED040009F1E5 /* Main.storyboard */,
+				B814D2F11BFCED040009F1E5 /* Assets.xcassets */,
+				B814D2F31BFCED040009F1E5 /* LaunchScreen.storyboard */,
+				B814D2F61BFCED040009F1E5 /* Info.plist */,
+			);
+			path = "Wedding Party";
+			sourceTree = "<group>";
+		};
+		B814D2FE1BFCED040009F1E5 /* Wedding PartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B814D2FF1BFCED040009F1E5 /* Wedding_PartyTests.swift */,
+				B814D3011BFCED040009F1E5 /* Info.plist */,
+			);
+			path = "Wedding PartyTests";
+			sourceTree = "<group>";
+		};
+		B814D3091BFCED040009F1E5 /* Wedding PartyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B814D30A1BFCED040009F1E5 /* Wedding_PartyUITests.swift */,
+				B814D30C1BFCED040009F1E5 /* Info.plist */,
+			);
+			path = "Wedding PartyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B814D2E61BFCED030009F1E5 /* Wedding Party */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B814D30F1BFCED040009F1E5 /* Build configuration list for PBXNativeTarget "Wedding Party" */;
+			buildPhases = (
+				B814D2E31BFCED030009F1E5 /* Sources */,
+				B814D2E41BFCED030009F1E5 /* Frameworks */,
+				B814D2E51BFCED030009F1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wedding Party";
+			productName = "Wedding Party";
+			productReference = B814D2E71BFCED040009F1E5 /* Wedding Party.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B814D2FA1BFCED040009F1E5 /* Wedding PartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B814D3121BFCED040009F1E5 /* Build configuration list for PBXNativeTarget "Wedding PartyTests" */;
+			buildPhases = (
+				B814D2F71BFCED040009F1E5 /* Sources */,
+				B814D2F81BFCED040009F1E5 /* Frameworks */,
+				B814D2F91BFCED040009F1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B814D2FD1BFCED040009F1E5 /* PBXTargetDependency */,
+			);
+			name = "Wedding PartyTests";
+			productName = "Wedding PartyTests";
+			productReference = B814D2FB1BFCED040009F1E5 /* Wedding PartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B814D3051BFCED040009F1E5 /* Wedding PartyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B814D3151BFCED040009F1E5 /* Build configuration list for PBXNativeTarget "Wedding PartyUITests" */;
+			buildPhases = (
+				B814D3021BFCED040009F1E5 /* Sources */,
+				B814D3031BFCED040009F1E5 /* Frameworks */,
+				B814D3041BFCED040009F1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B814D3081BFCED040009F1E5 /* PBXTargetDependency */,
+			);
+			name = "Wedding PartyUITests";
+			productName = "Wedding PartyUITests";
+			productReference = B814D3061BFCED040009F1E5 /* Wedding PartyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B814D2DF1BFCED030009F1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Coco co.";
+				TargetAttributes = {
+					B814D2E61BFCED030009F1E5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B814D2FA1BFCED040009F1E5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B814D2E61BFCED030009F1E5;
+					};
+					B814D3051BFCED040009F1E5 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B814D2E61BFCED030009F1E5;
+					};
+				};
+			};
+			buildConfigurationList = B814D2E21BFCED030009F1E5 /* Build configuration list for PBXProject "Wedding Party" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B814D2DE1BFCED030009F1E5;
+			productRefGroup = B814D2E81BFCED040009F1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B814D2E61BFCED030009F1E5 /* Wedding Party */,
+				B814D2FA1BFCED040009F1E5 /* Wedding PartyTests */,
+				B814D3051BFCED040009F1E5 /* Wedding PartyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B814D2E51BFCED030009F1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B814D2F51BFCED040009F1E5 /* LaunchScreen.storyboard in Resources */,
+				B814D2F21BFCED040009F1E5 /* Assets.xcassets in Resources */,
+				B814D2F01BFCED040009F1E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B814D2F91BFCED040009F1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B814D3041BFCED040009F1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B814D2E31BFCED030009F1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B814D2ED1BFCED040009F1E5 /* ViewController.swift in Sources */,
+				B814D2EB1BFCED040009F1E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B814D2F71BFCED040009F1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B814D3001BFCED040009F1E5 /* Wedding_PartyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B814D3021BFCED040009F1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B814D30B1BFCED040009F1E5 /* Wedding_PartyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B814D2FD1BFCED040009F1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B814D2E61BFCED030009F1E5 /* Wedding Party */;
+			targetProxy = B814D2FC1BFCED040009F1E5 /* PBXContainerItemProxy */;
+		};
+		B814D3081BFCED040009F1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B814D2E61BFCED030009F1E5 /* Wedding Party */;
+			targetProxy = B814D3071BFCED040009F1E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B814D2EE1BFCED040009F1E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B814D2EF1BFCED040009F1E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B814D2F31BFCED040009F1E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B814D2F41BFCED040009F1E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B814D30D1BFCED040009F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B814D30E1BFCED040009F1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B814D3101BFCED040009F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wedding Party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weddingparty.Wedding-Party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B814D3111BFCED040009F1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wedding Party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weddingparty.Wedding-Party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B814D3131BFCED040009F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wedding PartyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weddingparty.Wedding-PartyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding Party.app/Wedding Party";
+			};
+			name = Debug;
+		};
+		B814D3141BFCED040009F1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wedding PartyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weddingparty.Wedding-PartyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding Party.app/Wedding Party";
+			};
+			name = Release;
+		};
+		B814D3161BFCED040009F1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wedding PartyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weddingparty.Wedding-PartyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wedding Party";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B814D3171BFCED040009F1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wedding PartyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weddingparty.Wedding-PartyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wedding Party";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B814D2E21BFCED030009F1E5 /* Build configuration list for PBXProject "Wedding Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B814D30D1BFCED040009F1E5 /* Debug */,
+				B814D30E1BFCED040009F1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B814D30F1BFCED040009F1E5 /* Build configuration list for PBXNativeTarget "Wedding Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B814D3101BFCED040009F1E5 /* Debug */,
+				B814D3111BFCED040009F1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B814D3121BFCED040009F1E5 /* Build configuration list for PBXNativeTarget "Wedding PartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B814D3131BFCED040009F1E5 /* Debug */,
+				B814D3141BFCED040009F1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B814D3151BFCED040009F1E5 /* Build configuration list for PBXNativeTarget "Wedding PartyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B814D3161BFCED040009F1E5 /* Debug */,
+				B814D3171BFCED040009F1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B814D2DF1BFCED030009F1E5 /* Project object */;
+}
